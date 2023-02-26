@@ -96,4 +96,35 @@ header .menu nav a {
   color: rgba(39, 38, 38, 0.7764705882);
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.5;
+}
+
+#portfolio {
+  padding: 80px 0;
+}
+#portfolio .up h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#portfolio .up h4 {
+  margin: 20px 0 50px;
+  font-size: 18px;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#portfolio .box {
+  width: 355px;
+}
+#portfolio .box .textbox h2 {
+  margin: 25px 0 10px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#portfolio .box .textbox h4 {
+  font-size: 18px;
+  font-style: italic;
+  color: rgba(39, 38, 38, 0.7764705882);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0 0 15px;
 }/*# sourceMappingURL=style.css.map */
