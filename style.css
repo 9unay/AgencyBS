@@ -142,4 +142,27 @@ header .menu nav a {
   font-size: 18px;
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#team .upbox h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#team .upbox h4 {
+  margin: 20px 0 50px;
+  font-size: 18px;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#team .box .textbox h2 {
+  margin: 25px 0 30px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#team .box .textbox h5 {
+  font-size: 18px;
+  color: rgba(39, 38, 38, 0.7764705882);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }/*# sourceMappingURL=style.css.map */
