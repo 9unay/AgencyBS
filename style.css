@@ -210,4 +210,11 @@ header .menu nav a {
 #network .ibm {
   width: 100px;
   height: 10px;
+}
+
+#contact {
+  background-image: url("assets'/map-image.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
