@@ -144,6 +144,10 @@ header .menu nav a {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+#team {
+  background-color: #faf9f9;
+  padding: 80px;
+}
 #team .upbox h1 {
   font-size: 40px;
   font-weight: bold;
@@ -162,7 +166,7 @@ header .menu nav a {
   width: 250px;
   height: 250px;
   overflow: auto;
-  border: 8px solid #a1a1a1;
+  border: 8px solid #d1cccc;
   border-radius: 50%;
 }
 #team .box .textbox h2 {
@@ -189,9 +193,21 @@ header .menu nav a {
 }
 
 #network {
-  padding: 80px;
+  padding: 70px;
 }
-#network .microsoft, #network .google, #network .facebook, #network .ibm {
+#network .microsoft {
   width: 200px;
   height: 50px;
+}
+#network .google {
+  width: 120px;
+  height: 25px;
+}
+#network .facebook {
+  width: 140px;
+  height: 45px;
+}
+#network .ibm {
+  width: 100px;
+  height: 10px;
 }/*# sourceMappingURL=style.css.map */
