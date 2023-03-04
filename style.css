@@ -180,16 +180,13 @@ header .menu nav a {
   color: rgba(39, 38, 38, 0.7764705882);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-#team .box .btn {
-  margin: 0 68px;
-}
 #team .box .btn .twitter, #team .box .btn .fb, #team .box .btn .linkedin {
-  width: 90px;
+  width: 250px;
   font-size: 18px;
   color: white;
   background-color: #000;
   margin: 20px;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 #network {
@@ -214,7 +211,4 @@ header .menu nav a {
 
 #contact {
   background-image: url("assets'/map-image.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
