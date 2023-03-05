@@ -148,6 +148,14 @@ header .menu nav a {
   background-color: #faf9f9;
   padding: 80px;
 }
+#team p {
+  padding: 40px 0;
+  width: 750px;
+  font-size: 18px;
+  color: rgba(86, 85, 85, 0.7764705882);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.3;
+}
 #team .upbox h1 {
   font-size: 40px;
   font-weight: bold;
@@ -177,16 +185,18 @@ header .menu nav a {
 }
 #team .box .textbox h5 {
   font-size: 18px;
-  color: rgba(39, 38, 38, 0.7764705882);
+  color: rgba(86, 85, 85, 0.7764705882);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 #team .box .btn .twitter, #team .box .btn .fb, #team .box .btn .linkedin {
   width: 250px;
+  height: 40px;
   font-size: 18px;
   color: white;
   background-color: #000;
-  margin: 20px;
-  border-radius: 40%;
+  margin: 10px;
+  border-radius: 50%;
+  padding: 5px;
 }
 
 #network {
