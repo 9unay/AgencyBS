@@ -240,4 +240,18 @@ header .menu nav a {
   font-size: 18px;
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#pagend {
+  background-color: white;
+}
+#pagend .btn .twitter, #pagend .btn .fb, #pagend .btn .linkedin {
+  width: 250px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: #000;
+  margin: 10px;
+  border-radius: 50%;
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */
