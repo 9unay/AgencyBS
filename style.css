@@ -143,6 +143,13 @@ header .menu nav a {
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+#about .imgbox {
+  width: 150px;
+  height: 150px;
+  overflow: auto;
+  border: 8px solid #d1cccc;
+  border-radius: 50%;
+}
 
 #team {
   background-color: #faf9f9;
