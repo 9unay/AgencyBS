@@ -170,6 +170,18 @@ header .menu nav a {
 #about .textbox {
   margin: 1px 80px;
 }
+#about .box {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  background-color: #f7ef14;
+  width: 150px;
+  height: 150px;
+  overflow: auto;
+  border: 8px solid #d1cccc;
+  border-radius: 50%;
+}
 
 #team {
   background-color: #faf9f9;
