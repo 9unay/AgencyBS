@@ -143,25 +143,32 @@ header .menu nav a {
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-#about .textbox {
-  width: 350px;
-  line-height: 1.4;
-  font-size: 16px;
-  color: rgba(39, 38, 38, 0.7764705882);
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-#about .textbox h1, #about .textbox h2 {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000;
-}
 #about .imgbox {
   width: 150px;
   height: 150px;
   overflow: auto;
   border: 8px solid #d1cccc;
   border-radius: 50%;
+}
+#about .textbox, #about .txtbox {
+  padding: 30px 0;
+  width: 350px;
+  line-height: 1.5;
+  font-size: 16px;
+  color: rgba(39, 38, 38, 0.7764705882);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#about .textbox h1, #about .textbox h2, #about .txtbox h1, #about .txtbox h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+#about .txtbox {
+  margin: 0 70px;
+}
+#about .textbox {
+  margin: 1px 80px;
 }
 
 #team {
