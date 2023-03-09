@@ -143,6 +143,19 @@ header .menu nav a {
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+#about .textbox {
+  width: 350px;
+  line-height: 1.4;
+  font-size: 16px;
+  color: rgba(39, 38, 38, 0.7764705882);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#about .textbox h1, #about .textbox h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
 #about .imgbox {
   width: 150px;
   height: 150px;
