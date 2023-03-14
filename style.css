@@ -259,7 +259,7 @@ header .menu nav a {
 }
 
 #contact {
-  background-image: url("assets'/map.jpg");
+  background-image: url("assets'/map-image.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -274,7 +274,7 @@ header .menu nav a {
   font-weight: bold;
   font-family: sans-serif;
 }
-#contact .textbox h4 {
+#contact .textbox h1 h4 {
   margin: 20px 0 50px;
   font-size: 18px;
   font-style: italic;
