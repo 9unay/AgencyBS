@@ -12,18 +12,21 @@ body {
 
 header .menu {
   position: fixed;
-  width: 1200px;
+  width: 95%;
   padding: 30px;
   background-color: #181818;
   background-size: cover;
 }
 header .menu .logobox {
-  width: 180px;
+  width: 20%;
 }
 header .menu nav a {
   color: white;
   margin: 10px;
   font-size: 18px;
+}
+header:hover {
+  opacity: 1;
 }
 
 #welcome {
@@ -33,20 +36,18 @@ header .menu nav a {
   background-size: cover;
 }
 #welcome .textbox {
-  width: 1300px;
+  width: 80%;
   height: 900px;
 }
 #welcome .textbox h1 {
   margin: 70px 0 0;
   font-size: 50px;
-  font-style: italic;
   color: white;
 }
 #welcome .textbox h2 {
   margin: 30px 0 70px;
   font-size: 80px;
-  font-weight: bold;
-  font-family: sans-serif;
+  font-weight: 500;
   color: white;
 }
 #welcome .textbox button {
@@ -54,8 +55,6 @@ header .menu nav a {
   width: 230px;
   height: 70px;
   font-size: 20px;
-  font-weight: bold;
-  font-family: sans-serif;
   color: white;
   background-color: #edd30b;
   border-radius: 5px;
@@ -66,13 +65,10 @@ header .menu nav a {
 }
 #services .begin h1 {
   font-size: 40px;
-  font-weight: bold;
-  font-family: sans-serif;
 }
 #services .begin h5 {
   margin: 20px 0 50px;
   font-size: 20px;
-  font-style: italic;
 }
 #services .icon {
   margin: 10px 100px;
@@ -88,13 +84,10 @@ header .menu nav a {
 #services .textbox h2 {
   margin: 25px 0 30px;
   font-size: 25px;
-  font-weight: bold;
-  font-family: sans-serif;
 }
 #services .textbox p {
   font-size: 18px;
   color: rgba(39, 38, 38, 0.7764705882);
-  font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.5;
 }
 
@@ -103,14 +96,11 @@ header .menu nav a {
 }
 #portfolio .up h1 {
   font-size: 40px;
-  font-weight: bold;
-  font-family: sans-serif;
+  font-weight: 500;
 }
 #portfolio .up h4 {
   margin: 20px 0 50px;
   font-size: 18px;
-  font-style: italic;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 #portfolio .box {
   width: 355px;
@@ -118,14 +108,11 @@ header .menu nav a {
 #portfolio .box .textbox h2 {
   margin: 25px 0 10px;
   font-size: 25px;
-  font-weight: bold;
-  font-family: sans-serif;
 }
 #portfolio .box .textbox h4 {
   font-size: 18px;
   font-style: italic;
   color: rgba(39, 38, 38, 0.7764705882);
-  font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0 0 35px;
 }
 
@@ -134,14 +121,10 @@ header .menu nav a {
 }
 #about .uptext h1 {
   font-size: 40px;
-  font-weight: bold;
-  font-family: sans-serif;
 }
 #about .uptext h4 {
   margin: 20px 0 50px;
   font-size: 18px;
-  font-style: italic;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 #about .imgbox {
   width: 150px;
@@ -156,12 +139,9 @@ header .menu nav a {
   line-height: 1.5;
   font-size: 16px;
   color: rgba(39, 38, 38, 0.7764705882);
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 #about .textbox h1, #about .textbox h2, #about .txtbox h1, #about .txtbox h2 {
   font-size: 20px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
   color: #000;
 }
 #about .txtbox {
@@ -172,8 +152,6 @@ header .menu nav a {
 }
 #about .box {
   font-size: 40px;
-  font-weight: bold;
-  font-family: sans-serif;
   color: white;
   background-color: #f7ef14;
   width: 150px;
@@ -192,19 +170,14 @@ header .menu nav a {
   width: 750px;
   font-size: 18px;
   color: rgba(86, 85, 85, 0.7764705882);
-  font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.3;
 }
 #team .upbox h1 {
   font-size: 40px;
-  font-weight: bold;
-  font-family: sans-serif;
 }
 #team .upbox h4 {
   margin: 20px 0 50px;
   font-size: 18px;
-  font-style: italic;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 #team .box {
   margin: 0 68px;
@@ -219,13 +192,10 @@ header .menu nav a {
 #team .box .textbox h2 {
   margin: 25px 0 30px;
   font-size: 25px;
-  font-weight: bold;
-  font-family: sans-serif;
 }
 #team .box .textbox h5 {
   font-size: 18px;
   color: rgba(86, 85, 85, 0.7764705882);
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 #team .box .btn .twitter, #team .box .btn .fb, #team .box .btn .linkedin {
   width: 250px;
@@ -263,6 +233,7 @@ header .menu nav a {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #000;
 }
 #contact .textbox {
   width: 400px;
@@ -271,14 +242,10 @@ header .menu nav a {
 }
 #contact .textbox h1 {
   font-size: 40px;
-  font-weight: bold;
-  font-family: sans-serif;
 }
 #contact .textbox h1 h4 {
   margin: 20px 0 50px;
   font-size: 18px;
-  font-style: italic;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #pagend .btn {
