@@ -235,16 +235,17 @@ header:hover .menu {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #000;
+  height: 700px;
 }
 #contact .textbox {
-  width: 400px;
-  height: 900px;
   color: white;
+  width: 100%;
 }
 #contact .textbox h1 {
   font-size: 40px;
+  color: white;
 }
-#contact .textbox h1 h4 {
+#contact .textbox h4 {
   margin: 20px 0 50px;
   font-size: 18px;
 }
