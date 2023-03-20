@@ -11,11 +11,10 @@ body {
 }
 
 header .menu {
+  opacity: 3;
   position: fixed;
   width: 95%;
   padding: 30px;
-  background-color: #181818;
-  background-size: cover;
 }
 header .menu .logobox {
   width: 20%;
@@ -25,8 +24,10 @@ header .menu nav a {
   margin: 10px;
   font-size: 18px;
 }
-header:hover {
-  opacity: 1;
+header:hover .menu {
+  position: fixed;
+  background-color: #181818;
+  background-size: cover;
 }
 
 #welcome {
