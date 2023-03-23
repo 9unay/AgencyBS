@@ -234,10 +234,12 @@ header:hover .menu {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #000;
+  background-color: #232222;
   height: 700px;
+  padding: 80px 0;
 }
 #contact .textbox {
+  margin: 30px;
   color: white;
   width: 100%;
 }
@@ -245,9 +247,19 @@ header:hover .menu {
   font-size: 40px;
   color: white;
 }
-#contact .textbox h4 {
+#contact .textbox h5 {
   margin: 20px 0 50px;
   font-size: 18px;
+}
+#contact .box input {
+  margin: 10px;
+  height: 65px;
+  width: 100%;
+}
+#contact .bigbox input {
+  margin: 10px;
+  height: 190px;
+  width: 100%;
 }
 
 #pagend .btn {
