@@ -44,7 +44,7 @@ header .menu nav a {
 #welcome .textbox h2 {
   margin: 30px 0 70px;
   font-size: 80px;
-  font-weight: 500;
+  font-weight: 700;
   color: white;
 }
 #welcome .textbox .btn button {
@@ -61,6 +61,7 @@ header .menu nav a {
   padding: 90px;
 }
 #services .begin h1 {
+  font-weight: 700;
   font-size: 40px;
 }
 #services .begin h5 {
@@ -79,6 +80,7 @@ header .menu nav a {
   color: white;
 }
 #services .textbox h2 {
+  font-weight: 700;
   margin: 25px 0 30px;
   font-size: 25px;
 }
@@ -90,7 +92,7 @@ header .menu nav a {
 
 #portfolio .up h1 {
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 700;
 }
 #portfolio .up h4 {
   margin: 20px 0 50px;
@@ -100,6 +102,7 @@ header .menu nav a {
   width: 355px;
 }
 #portfolio .box .textbox h2 {
+  font-weight: 700;
   margin: 25px 0 10px;
   font-size: 25px;
 }
@@ -154,6 +157,7 @@ header .menu nav a {
 #about .bigbox .box .minibox {
   padding: 30px 35px;
   font-size: 25px;
+  font-weight: 700;
   color: white;
   background-color: #f7ef14;
 }
@@ -171,6 +175,7 @@ header .menu nav a {
 }
 #team .upbox h1 {
   font-size: 40px;
+  font-weight: 700;
 }
 #team .upbox h4 {
   margin: 20px 0 50px;
@@ -189,6 +194,7 @@ header .menu nav a {
 #team .box .textbox h2 {
   margin: 25px 0 30px;
   font-size: 25px;
+  font-weight: 700;
 }
 #team .box .textbox h5 {
   font-size: 18px;
@@ -240,6 +246,7 @@ header .menu nav a {
   width: 100%;
 }
 #contact .textbox h1 {
+  font-weight: 700;
   font-size: 40px;
   color: white;
 }
