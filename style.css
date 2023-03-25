@@ -118,7 +118,7 @@ header .menu nav a {
 }
 #about .uptext h4 {
   margin: 20px 0 50px;
-  font-size: 18px;
+  font-size: 20px;
 }
 #about .bigbox {
   display: flex;
@@ -127,8 +127,10 @@ header .menu nav a {
 #about .bigbox .box {
   display: flex;
   flex-flow: row;
+  margin: 20px;
 }
 #about .bigbox .box .imgbox, #about .bigbox .box .minibox {
+  margin: 20px -55px;
   width: 170px;
   height: 170px;
   overflow: auto;
@@ -140,7 +142,7 @@ header .menu nav a {
   margin: 1px 80px;
   width: 350px;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 20px;
   color: rgba(39, 38, 38, 0.7764705882);
 }
 #about .bigbox .box .textbox h1, #about .bigbox .box .textbox h2 {
@@ -149,7 +151,7 @@ header .menu nav a {
 }
 #about .bigbox .box .minibox {
   padding: 30px 35px;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
   background-color: #f7ef14;
 }
