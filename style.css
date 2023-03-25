@@ -146,7 +146,8 @@ header .menu nav a {
   color: rgba(39, 38, 38, 0.7764705882);
 }
 #about .bigbox .box .textbox h1, #about .bigbox .box .textbox h2 {
-  font-size: 20px;
+  font-style: bold;
+  font-size: 26px;
   color: #000;
 }
 #about .bigbox .box .minibox {
