@@ -120,40 +120,38 @@ header .menu nav a {
   margin: 20px 0 50px;
   font-size: 18px;
 }
-#about .imgbox {
+#about .bigbox {
+  display: flex;
+  flex-flow: column;
+}
+#about .bigbox .box {
+  display: flex;
+  flex-flow: row;
+}
+#about .bigbox .box .imgbox, #about .bigbox .box .minibox {
   width: 170px;
   height: 170px;
   overflow: auto;
   border: 8px solid #d1cccc;
   border-radius: 50%;
 }
-#about .textbox, #about .txtbox {
+#about .bigbox .box .textbox {
   padding: 30px 0;
+  margin: 1px 80px;
   width: 350px;
   line-height: 1.5;
   font-size: 16px;
   color: rgba(39, 38, 38, 0.7764705882);
 }
-#about .textbox h1, #about .textbox h2, #about .txtbox h1, #about .txtbox h2 {
+#about .bigbox .box .textbox h1, #about .bigbox .box .textbox h2 {
   font-size: 20px;
   color: #000;
 }
-#about .txtbox {
-  margin: 0 70px;
-}
-#about .textbox {
-  margin: 1px 80px;
-}
-#about .box {
+#about .bigbox .box .minibox {
   padding: 30px 35px;
   font-size: 20px;
   color: white;
   background-color: #f7ef14;
-  width: 150px;
-  height: 150px;
-  overflow: auto;
-  border: 8px solid #d1cccc;
-  border-radius: 50%;
 }
 
 #team {
