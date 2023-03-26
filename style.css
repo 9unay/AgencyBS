@@ -10,18 +10,21 @@ body {
   width: 100%;
 }
 
+header {
+  display: inline-block;
+}
 header .menu {
+  width: 100%;
   position: fixed;
-  width: 95%;
-  padding: 20px;
+  padding: 15px;
   background-color: #181818;
 }
 header .menu .logobox {
-  width: 20%;
+  width: 15%;
 }
 header .menu nav a {
   color: white;
-  margin: 10px;
+  margin: 20px;
   font-size: 18px;
 }
 
