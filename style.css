@@ -29,21 +29,23 @@ header .menu nav a {
 }
 @media screen and (min-width: 300px) {
   header .menu {
+    width: 95%;
     padding: 6px;
   }
-  header .menu nav a {
-    font-size: 8px;
-  }
-}
-@media screen and (max-width: 2500px) {
-  header .menu {
-    padding: 18px;
+  header .menu .logobox {
+    width: 18%;
   }
   header .menu nav a {
-    font-size: 30px;
+    margin: 10px;
+    font-size: 10px;
   }
 }
-
+@media screen and (min-width: 820px) {
+  header .menu nav a {
+    margin: 15px;
+    font-size: 14px;
+  }
+}
 #welcome {
   background-image: url("assets'/header-bg.jpg");
   background-position: center center;
@@ -75,7 +77,7 @@ header .menu nav a {
   background-color: #edd30b;
   border-radius: 5px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 300px) {
   #welcome .textbox {
     padding: 80px 0;
     width: 90%;
