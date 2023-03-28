@@ -59,6 +59,22 @@ header .menu nav a {
   background-color: #edd30b;
   border-radius: 5px;
 }
+@media screen and (max-width: 500px) {
+  #welcome .textbox {
+    padding: 150px 0;
+    width: 90%;
+    height: 300px;
+  }
+  #welcome h1 {
+    margin: 50px 0 0;
+    font-size: 10px;
+  }
+  #welcome h2 {
+    margin: 10px 0 50px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
 
 #services {
   padding: 90px;
