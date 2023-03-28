@@ -27,18 +27,19 @@ header .menu nav a {
   margin: 20px;
   font-size: 18px;
 }
-@media screen and (max-width: 300px) {
+@media screen and (min-width: 300px) {
   header .menu {
-    padding: 9px;
+    padding: 6px;
   }
   header .menu nav a {
-    margin: 10px;
-    font-size: 15px;
+    font-size: 8px;
   }
 }
 @media screen and (max-width: 2500px) {
+  header .menu {
+    padding: 18px;
+  }
   header .menu nav a {
-    margin: 20px;
     font-size: 30px;
   }
 }
