@@ -57,12 +57,12 @@ header .menu nav a {
 }
 #welcome .textbox h1 {
   margin: 70px 0 0;
-  font-size: 50px;
+  font-size: 60px;
   color: white;
 }
 #welcome .textbox h2 {
   margin: 30px 0 70px;
-  font-size: 80px;
+  font-size: 95px;
   font-weight: 700;
   color: white;
 }
@@ -70,31 +70,28 @@ header .menu nav a {
   border: 1px solid #edd30b;
   width: 230px;
   height: 70px;
-  font-size: 20px;
+  font-size: 30px;
   color: white;
   background-color: #edd30b;
   border-radius: 5px;
 }
-@media screen and (min-width: 300px) {
-  #welcome .textbox {
-    padding: 80px 0;
-    width: 90%;
-    height: 430px;
-  }
-  #welcome .textbox h1 {
-    margin: 25px 0 0;
-    font-size: 30px;
-  }
-  #welcome .textbox h2 {
-    margin: 10px 0 20px;
-    font-size: 40px;
-    font-weight: 500;
-  }
-  #welcome .textbox .btn button {
-    width: 160px;
-    height: 45px;
-    font-size: 10px;
-  }
+#welcome .textbox .textbox {
+  padding: 80px 0;
+  width: 90%;
+}
+#welcome .textbox .textbox h1 {
+  margin: 25px 0 0;
+  font-size: 30px;
+}
+#welcome .textbox .textbox h2 {
+  margin: 10px 0 20px;
+  font-size: 40px;
+  font-weight: 500;
+}
+#welcome .textbox .textbox .btn button {
+  width: 160px;
+  height: 45px;
+  font-size: 10px;
 }
 
 #services {
