@@ -45,7 +45,7 @@ header .menu nav a {
   }
   header .menu nav a {
     margin: 15px;
-    font-size: 22px;
+    font-size: 21px;
   }
 }
 
@@ -80,20 +80,29 @@ header .menu nav a {
   background-color: #edd30b;
   border-radius: 5px;
 }
-@media screen and (min-width: 991px) {
-  #welcome .textbox .textbox h1 {
-    font-size: 20px;
+@media screen and (max-width: 992px) {
+  #welcome .textbox {
+    height: 700px;
   }
-  #welcome .textbox .textbox h2 {
+  #welcome .textbox h1 {
+    font-size: 45px;
+  }
+  #welcome .textbox h2 {
+    font-size: 75px;
+  }
+  #welcome .textbox .btn button {
     font-size: 25px;
   }
 }
-@media screen and (min-width: 1500px) {
-  #welcome .textbox .textbox h1 {
-    font-size: 25px;
+@media screen and (min-width: 1600px) {
+  #welcome .textbox h1 {
+    font-size: 70px;
   }
-  #welcome .textbox .textbox h2 {
-    font-size: 30px;
+  #welcome .textbox h2 {
+    font-size: 105px;
+  }
+  #welcome .textbox .btn button {
+    font-size: 35px;
   }
 }
 
