@@ -138,6 +138,52 @@ header .menu nav a {
   color: rgba(39, 38, 38, 0.7764705882);
   line-height: 1.5;
 }
+@media screen and (max-width: 992px) {
+  #services .begin h1 {
+    font-size: 30px;
+  }
+  #services .begin h5 {
+    font-size: 10px;
+  }
+  #services .icon {
+    margin: 10px 100px;
+    border-radius: 80px;
+    width: 140px;
+    height: 130px;
+  }
+  #services .icon i {
+    font-size: 60px;
+  }
+  #services .textbox h2 {
+    font-size: 15px;
+  }
+  #services .textbox p {
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #services .begin h1 {
+    font-size: 50px;
+  }
+  #services .begin h5 {
+    font-size: 30px;
+  }
+  #services .icon {
+    margin: 10px 100px;
+    border-radius: 80px;
+    width: 140px;
+    height: 130px;
+  }
+  #services .icon i {
+    font-size: 80px;
+  }
+  #services .textbox h2 {
+    font-size: 35px;
+  }
+  #services .textbox p {
+    font-size: 28px;
+  }
+}
 
 #portfolio .up h1 {
   font-size: 40px;
