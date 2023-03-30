@@ -254,6 +254,29 @@ header .menu nav a {
   color: white;
   background-color: #f7ef14;
 }
+@media screen and (max-width: 768px) {
+  #about .bigbox .uptext h1 {
+    font-size: 35px;
+  }
+  #about .bigbox .uptext h4 {
+    font-size: 15px;
+  }
+  #about .bigbox .bigbox .box .imgbox, #about .bigbox .bigbox .box .minibox {
+    width: 120px;
+    height: 120px;
+  }
+  #about .bigbox .bigbox .box .textbox {
+    line-height: 1;
+    width: 250px;
+    font-size: 15px;
+  }
+  #about .bigbox .bigbox .box .textbox h1, #about .bigbox .bigbox .box .textbox h2 {
+    font-size: 20px;
+  }
+  #about .bigbox .bigbox .box .minibox {
+    font-size: 18px;
+  }
+}
 
 #team {
   background-color: #faf9f9;
