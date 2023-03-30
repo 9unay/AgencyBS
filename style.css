@@ -74,14 +74,21 @@ header .menu nav a {
   background-color: #edd30b;
   border-radius: 5px;
 }
-#welcome .textbox .textbox h1 {
-  margin: 25px 0 0;
-  font-size: 25px;
+@media screen and (min-width: 991px) {
+  #welcome .textbox .textbox h1 {
+    font-size: 20px;
+  }
+  #welcome .textbox .textbox h2 {
+    font-size: 25px;
+  }
 }
-#welcome .textbox .textbox h2 {
-  margin: 10px 0 20px;
-  font-size: 30px;
-  font-weight: 500;
+@media screen and (min-width: 1500px) {
+  #welcome .textbox .textbox h1 {
+    font-size: 25px;
+  }
+  #welcome .textbox .textbox h2 {
+    font-size: 30px;
+  }
 }
 
 #services {
