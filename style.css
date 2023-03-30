@@ -14,7 +14,7 @@ header {
   display: inline-block;
 }
 header .menu {
-  width: 110%;
+  width: 100%;
   position: fixed;
   padding: 15px;
   background-color: #181818;
@@ -31,15 +31,21 @@ header .menu nav a {
   header .menu {
     padding: 6px;
   }
+  header .menu .logobox {
+    width: 13%;
+  }
   header .menu nav a {
     margin: 10px;
-    font-size: 19px;
+    font-size: 17px;
   }
 }
 @media screen and (min-width: 1600px) {
+  header .menu .logobox {
+    width: 16%;
+  }
   header .menu nav a {
     margin: 15px;
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
