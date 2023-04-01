@@ -120,14 +120,13 @@ header .menu nav a:hover {
   margin: 20px 0 50px;
   font-size: 20px;
 }
-#services .icon {
-  margin: 10px 100px;
+#services .box .icon {
   background-color: #edd30b;
   border-radius: 80px;
   width: 140px;
   height: 130px;
 }
-#services .icon i {
+#services .box i {
   font-size: 70px;
   color: white;
 }
