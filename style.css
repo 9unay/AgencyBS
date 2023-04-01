@@ -335,28 +335,24 @@ header .menu nav a:hover {
   margin: 20px 0 50px;
   font-size: 18px;
 }
-#team .box {
-  margin: 0 68px;
+#team .imgbox {
+  width: 75%;
 }
-#team .box .imgbox {
-  width: 250px;
-  height: 250px;
-  overflow: auto;
+#team .imgbox img {
   border: 8px solid #d1cccc;
   border-radius: 50%;
 }
-#team .box .textbox h2 {
+#team .textbox h2 {
   margin: 25px 0 30px;
   font-size: 25px;
   font-weight: 700;
 }
-#team .box .textbox h5 {
+#team .textbox h2 h5 {
   font-size: 18px;
   color: rgba(86, 85, 85, 0.7764705882);
 }
-#team .box .btn .twitter, #team .box .btn .fb, #team .box .btn .linkedin {
-  width: 250px;
-  height: 40px;
+#team .btn .twitter, #team .btn .fb, #team .btn .linkedin {
+  width: 18%;
   font-size: 18px;
   color: white;
   background-color: #000;
