@@ -335,23 +335,23 @@ header .menu nav a:hover {
   margin: 20px 0 50px;
   font-size: 18px;
 }
-#team .imgbox {
+#team .box .imgbox {
   width: 75%;
 }
-#team .imgbox img {
+#team .box .imgbox img {
   border: 8px solid #d1cccc;
   border-radius: 50%;
 }
-#team .textbox h2 {
+#team .box .textbox h2 {
   margin: 25px 0 30px;
   font-size: 25px;
   font-weight: 700;
 }
-#team .textbox h2 h5 {
+#team .box .textbox h5 {
   font-size: 18px;
   color: rgba(86, 85, 85, 0.7764705882);
 }
-#team .btn .twitter, #team .btn .fb, #team .btn .linkedin {
+#team .box .btn .twitter, #team .box .btn .fb, #team .box .btn .linkedin {
   width: 18%;
   font-size: 18px;
   color: white;
