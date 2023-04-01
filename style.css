@@ -238,11 +238,11 @@ header .menu nav a:hover {
   flex-flow: row;
   margin: 20px;
 }
-#about .bigbox .box .imgbox, #about .bigbox .box .minibox {
+#about .bigbox .box .imgbox {
   margin: 30px -55px;
   width: 170px;
-  height: 170px;
-  overflow: auto;
+}
+#about .bigbox .box .imgbox img {
   border: 8px solid #d1cccc;
   border-radius: 50%;
 }
@@ -265,6 +265,10 @@ header .menu nav a:hover {
   font-weight: 700;
   color: white;
   background-color: #f7ef14;
+  margin: 30px -55px;
+  width: 170px;
+  border: 8px solid #d1cccc;
+  border-radius: 50%;
 }
 @media screen and (max-width: 768px) {
   #about .bigbox .uptext h1 {
