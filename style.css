@@ -293,6 +293,28 @@ header .menu nav a:hover {
     font-size: 18px;
   }
 }
+@media screen and (min-width: 1400px) {
+  #about .bigbox .uptext h1 {
+    font-size: 45px;
+  }
+  #about .bigbox .uptext h4 {
+    font-size: 25px;
+  }
+  #about .bigbox .bigbox .box .imgbox, #about .bigbox .bigbox .box .minibox {
+    width: 190px;
+    height: 200px;
+    margin: 33px 11px;
+  }
+  #about .bigbox .bigbox .box .textbox {
+    font-size: 25px;
+  }
+  #about .bigbox .bigbox .box .textbox h1, #about .bigbox .bigbox .box .textbox h2 {
+    font-size: 30px;
+  }
+  #about .bigbox .bigbox .box .minibox {
+    font-size: 28px;
+  }
+}
 
 #team {
   background-color: #faf9f9;
