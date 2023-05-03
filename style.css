@@ -214,14 +214,11 @@ header .menu nav a:hover {
 }
 #portfolio .box .imgbox {
   width: 100%;
+}
+#portfolio .box .imgbox:hover {
   opacity: 0.1;
 }
 #portfolio .box .imgbox .icon {
-  width: 100%;
-  position: absolute;
-}
-#portfolio .box .imgbox .icon:hover {
-  background-color: #eeff03;
   color: white;
   cursor: pointer;
 }
