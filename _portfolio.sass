@@ -20,14 +20,19 @@
             font-style: italic
             color: #949598
     .box
+        position: relative
         .imgbox
             width: 100%
-            position: relative
             &:hover
-
                 opacity: 0.1
-            .icon
-                width: 100%
-                position: absolute
-                background-color: #eeff03
+        .icon
+            height: 100%
+            width: 100%
+            position: absolute
+            top: 0px
+            background-color: #fbff08
+            &:hover
+                color: #ffff
                 cursor: pointer
+                font-size: 50px
+                opacity: 2

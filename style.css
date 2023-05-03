@@ -212,18 +212,27 @@ header .menu nav a:hover {
   font-style: italic;
   color: #949598;
 }
+#portfolio .box {
+  position: relative;
+}
 #portfolio .box .imgbox {
   width: 100%;
-  position: relative;
 }
 #portfolio .box .imgbox:hover {
   opacity: 0.1;
 }
-#portfolio .box .imgbox .icon {
+#portfolio .box .icon {
+  height: 100%;
   width: 100%;
   position: absolute;
-  background-color: #eeff03;
+  top: 0px;
+  background-color: #fbff08;
+}
+#portfolio .box .icon:hover {
+  color: white;
   cursor: pointer;
+  font-size: 50px;
+  opacity: 2;
 }
 
 #about {
