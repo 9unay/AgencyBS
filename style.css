@@ -217,23 +217,27 @@ header .menu nav a:hover {
 }
 #portfolio .box .imgbox {
   width: 100%;
+  height: 80%;
 }
 #portfolio .box .imgbox:hover {
   opacity: 0.1;
 }
 #portfolio .box .icon {
-  height: 100%;
+  height: 80%;
   width: 100%;
   position: absolute;
   top: 0px;
   background-color: #fbff08;
   opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #portfolio .box .icon:hover {
   color: white;
   cursor: pointer;
   font-size: 50px;
-  opacity: 1;
+  opacity: 0.8;
 }
 
 #about {
