@@ -222,7 +222,7 @@ header .menu nav a:hover {
   opacity: 0.1;
 }
 #portfolio .box .icon {
-  height: 76%;
+  height: 75%;
   width: 100%;
   position: absolute;
   top: 0px;
@@ -265,6 +265,7 @@ header .menu nav a:hover {
 }
 #about .imgbox {
   width: 170px;
+  margin: 10px 0 2px;
 }
 #about .imgbox img {
   border: 8px solid #d1cccc;
