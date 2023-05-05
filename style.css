@@ -84,6 +84,20 @@ header .menu nav a:hover {
   background-color: #edd30b;
   border-radius: 5px;
 }
+@media screen and (min-width: 992px) {
+  #welcome .textbox {
+    height: 700px;
+  }
+  #welcome .textbox h1 {
+    font-size: 45px;
+  }
+  #welcome .textbox h2 {
+    font-size: 75px;
+  }
+  #welcome .textbox .btn h6 {
+    font-size: 20px;
+  }
+}
 @media screen and (min-width: 1600px) {
   #welcome .textbox h1 {
     font-size: 70px;
