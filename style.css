@@ -343,7 +343,7 @@ header .menu nav a:hover {
   color: rgba(86, 85, 85, 0.7764705882);
 }
 #team .box .btn .twitter, #team .box .btn .fb, #team .box .btn .linkedin {
-  width: 18%;
+  width: 13%;
   font-size: 18px;
   color: white;
   background-color: #000;
@@ -421,7 +421,7 @@ header .menu nav a:hover {
   margin: 0 60px;
 }
 #pagend .btn .twitter, #pagend .btn .fb, #pagend .btn .linkedin {
-  width: 250px;
+  width: 18%;
   height: 40px;
   font-size: 18px;
   color: white;
