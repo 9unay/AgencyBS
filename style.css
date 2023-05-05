@@ -264,13 +264,19 @@ header .menu nav a:hover {
   flex-flow: row;
   margin: 20px;
 }
-#about .bigbox .box .imgbox {
-  position: absolute;
+#about .bigbox .box .imgbox, #about .bigbox .box .imgboxleft {
   width: 170px;
+  position: absolute;
 }
-#about .bigbox .box .imgbox img {
+#about .bigbox .box .imgbox img, #about .bigbox .box .imgboxleft img {
   border: 8px solid #d1cccc;
   border-radius: 50%;
+}
+#about .bigbox .box .imgboxleft {
+  left: 850px;
+}
+#about .bigbox .box .imgbox {
+  right: 850px;
 }
 #about .bigbox .box .textbox {
   padding: 30px 0;
