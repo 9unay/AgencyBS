@@ -20,7 +20,10 @@ header .menu {
   background-color: #181818;
 }
 header .menu .logobox {
-  width: 14%;
+  width: 10%;
+}
+header .menu nav {
+  padding: 10px;
 }
 header .menu nav a {
   color: white;
@@ -30,38 +33,21 @@ header .menu nav a {
 header .menu nav a:hover {
   color: #eeff03;
 }
-@media screen and (max-width: 992px) {
-  header .menu {
-    padding: 6px;
-  }
-  header .menu .logobox {
-    width: 13%;
-  }
-  header .menu nav a {
-    margin: 10px;
-    font-size: 17px;
-  }
-}
-@media screen and (min-width: 1600px) {
-  header .menu .logobox {
-    width: 16%;
-  }
-  header .menu nav a {
-    margin: 15px;
-    font-size: 21px;
-  }
-}
 
 #welcome {
   background-image: url("assets'/header-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
 }
 #welcome .textbox {
-  height: 900px;
+  height: 700px;
+  justify-content: center;
+  align-content: center;
 }
 #welcome .textbox h1 {
+  padding-top: 80px;
   margin: 70px 0 0;
   font-size: 60px;
   color: white;
@@ -71,6 +57,9 @@ header .menu nav a:hover {
   font-size: 95px;
   font-weight: 700;
   color: white;
+}
+#welcome .textbox .btn {
+  padding-top: 50px;
 }
 #welcome .textbox .btn h6 {
   border: 1px solid #edd30b;
