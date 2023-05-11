@@ -20,10 +20,11 @@ header .menu {
   background-color: #181818;
 }
 header .menu .logobox {
-  width: 10%;
+  padding: 10px;
+  width: 12%;
 }
 header .menu nav {
-  padding: 10px;
+  padding: 20px;
 }
 header .menu nav a {
   color: white;
@@ -32,6 +33,16 @@ header .menu nav a {
 }
 header .menu nav a:hover {
   color: #eeff03;
+}
+@media screen and (min-width: 1200px) {
+  header .menu {
+    position: fixed;
+    right: 10px;
+  }
+  header .menu nav a {
+    margin: 10px;
+    font-size: 17px;
+  }
 }
 
 #welcome {
@@ -63,7 +74,7 @@ header .menu nav a:hover {
 }
 #welcome .textbox .btn h6 {
   border: 1px solid #edd30b;
-  width: 18%;
+  width: 200px;
   height: 70px;
   font-size: 25px;
   padding: 15px;
@@ -71,26 +82,27 @@ header .menu nav a:hover {
   background-color: #edd30b;
   border-radius: 5px;
 }
-@media screen and (min-width: 992px) {
-  #welcome .textbox h1 {
+@media screen and (max-width: 1066px) {
+  #welcome .textbox .textbox h1 {
     font-size: 45px;
   }
-  #welcome .textbox h2 {
+  #welcome .textbox .textbox h2 {
     font-size: 75px;
   }
-  #welcome .textbox .btn h6 {
-    font-size: 20px;
+  #welcome .textbox .textbox .btn h6 {
+    width: 120px;
+    font-size: 10px;
   }
 }
-@media screen and (min-width: 1600px) {
-  #welcome .textbox h1 {
+@media screen and (min-width: 2000px) {
+  #welcome .textbox .textbox h1 {
     font-size: 70px;
   }
-  #welcome .textbox h2 {
+  #welcome .textbox .textbox h2 {
     font-size: 105px;
   }
-  #welcome .textbox .btn button {
-    font-size: 35px;
+  #welcome .textbox .textbox .btn h6 {
+    font-size: 25px;
   }
 }
 
@@ -290,7 +302,6 @@ header .menu nav a:hover {
   font-weight: 700;
   color: white;
 }
-
 #team {
   background-color: #faf9f9;
   padding: 80px;

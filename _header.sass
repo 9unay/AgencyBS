@@ -8,9 +8,10 @@ header
         padding: 15px 0
         background-color: #181818
         .logobox
-            width: 10%
-        nav
             padding: 10px
+            width: 12%
+        nav
+            padding: 20px
             a
                 color: #ffff
                 margin: 15px
@@ -18,13 +19,14 @@ header
                 &:hover
                     color: #eeff03
 
-    // @media screen and (max-width: 1920px)
-    //     .menu
-    //         padding: 6px
-    //         nav
-    //             a
-    //                 margin: 10px
-    //                 font-size: 17px
+    @media screen and (min-width: 1200px)
+        .menu
+            position: fixed
+            right: 10px 
+            nav
+                a
+                    margin: 10px
+                    font-size: 17px
     // @media screen and (min-width:2000px)
     //     .menu
     //         .logobox
