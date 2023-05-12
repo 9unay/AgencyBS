@@ -22,6 +22,7 @@ header .menu {
 header .menu .logobox {
   padding: 10px;
   width: 12%;
+  margin: 15px;
 }
 header .menu nav {
   padding: 20px;
@@ -29,19 +30,14 @@ header .menu nav {
 header .menu nav a {
   color: white;
   margin: 15px;
-  font-size: 19px;
+  font-size: 20px;
 }
 header .menu nav a:hover {
   color: #eeff03;
 }
-@media screen and (min-width: 1200px) {
-  header .menu {
-    position: fixed;
-    right: 10px;
-  }
+@media screen and (max-width: 1200px) {
   header .menu nav a {
-    margin: 10px;
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 
